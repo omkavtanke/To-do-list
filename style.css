@@ -37,7 +37,7 @@
 .add-block__input, .todo-block__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-block__row {
@@ -135,7 +135,7 @@ li > label {
 }
 
 li > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 button.button-delete img {
@@ -156,12 +156,12 @@ button.button-delete img:hover {
 
 /* Edit Task */
 ul li input[type=text] {
-  display: none
+  display: none;
 }
 
 .todo-block__edit input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo-block__edit label {
