@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.add-block__input, .todo-block__input {
+.add-block__input,
+.todo-block__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -49,11 +50,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button{
   outline: none;
 }
 
@@ -72,7 +75,8 @@ button:hover {
 }
 
 /* Heading */
-h3, label[for="add-input"] {
+h3,
+label[for="add-input"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
