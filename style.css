@@ -34,7 +34,7 @@
   margin: 0 auto 0;
 }
 
-.add-block__input,
+.add-block__input 
 .todo-block__input {
   width: 56%;
   display: inline-block;
