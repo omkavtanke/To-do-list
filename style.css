@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: lato, sans-serif;
@@ -18,7 +18,7 @@ body {
 }
 
 @media (max-width:768px) {
-    .header { 
+  .header { 
   text-align: center;
   }
 }
@@ -89,7 +89,7 @@ label[for="add-input"] {
   display: block;
   margin: 0 0 20px;
 }
-input#add-input {
+#add-input {
   width: 318px;
 }
 
@@ -129,7 +129,7 @@ button.button-delete img:hover {
 }
 
 /* Completed */
-ul#completed label {
+#completed label {
   text-decoration: line-through;
   color: #888;
 }
@@ -139,11 +139,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.todo-block__edit input[type=text] {
+.todo-block__edit input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.todo-block__edit label {
+.todo-block__edit label {
   display:none;
 }
